@@ -1,1 +1,5 @@
-
+For the files inside this directory:
+1. "corner_plots_and_param_constraints.ipynb" is used to plot the parameter covariance after one has sampled the posterior distributions using our statistics shear 2-point correlation function (2PCF) and shear i3PCF.
+2. "MCMC_affine_gpu_full_datavector_2PCF_plus_all_apertures_w_systematics.py" samples the posterior distribution using the combined shear 2PCF and i3PCF (with four DES Y3 source redshift distributions and all tomographic bins), considering sysmetic effects including photometric redshift uncertainty, shear multiplicative bias and galaxy intrinsic alignment.
+3. "MCMC_affine_gpu_full_datavector_2PCF_plus_all_apertures_wo_systematics.py" is the same sampling script as above but without systematic effects modeling.
+4. "MCMC_affine_gpu_full_datavector_2PCF_w_systematics.py" is the script to sample posterior distribution with only shear 2PCF (with four DES Y3 source redshift distributions and all tomographic bins), considering the same systematic effects as above.

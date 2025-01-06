@@ -1,4 +1,4 @@
-# Emulated inference shear i3PCF
+# Emulated inference shear integrated 3-point correlation function
 Codes that used in producing all results in the paper of emulation based inference of shear integrated 3-point correlation function (3PCF) which is based on the works: https://ui.adsabs.harvard.edu/abs/2021MNRAS.506.2780H/abstract and https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.4639H/abstract
 
 The code includes two major parts:

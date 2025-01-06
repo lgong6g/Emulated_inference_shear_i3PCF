@@ -5,7 +5,7 @@ The code includes two major parts:
 1. Data preprocessing and the emulation of shear i3PCF and other cosmological background quantities using NN and GP
 2. The likelihood analyses of shear i3PCF and 2PCF using MCMC to investigate the parameter constraints improvement and optimize the filter size parameter within the shear i3PCF model
 
-As for the measurement of data vectors from simulated DES (Dark Energy Survey) Year 3-like footprints with realistic source redshift distribution n(z), masks and galaxy shape noise, please refer to the relevant codes in 
+As for the measurement of data vectors from simulated DES (Dark Energy Survey) Year 3-like footprints with realistic source redshift distribution n(z), masks and galaxy shape noise, please refer to the relevant codes in https://github.com/D-Gebauer/CosmoFuse. This package can also be used to estimate data covariance in the statistical analysis. For the code that computes the integrated bispectrum which is used as the training and testing dataset here, please refer to https://github.com/anikhalder/i3PCF/tree/main
 
 # Notice
 1. Both emulation and MCMC are computed on GPU to save time expense
